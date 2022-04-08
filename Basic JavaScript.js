@@ -170,7 +170,7 @@ strict equality operator:
 3 === '3' false, because under strict equality operator no automatic covertion would happen
           i.e. different types would be evaluated to false
 strict inequality operator:
-3 !== '3' false, because 3 and '3' has the same value if converted to number type
+3 != '3' false, because 3 and '3' has the same value if converted to number type
 3 !== '3' true, because 3 and '3' is in different types
 */
 
